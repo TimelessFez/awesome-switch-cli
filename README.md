@@ -45,7 +45,13 @@
 
   - *Privilege level ranges from 0 (lowest) to 15 (highest). Default: 0*
  
-    ```local-user <username> privilege level <level>``` 
+    ```local-user <username> privilege level <level>```
+
+- **Delete user**
+
+  - *Removes the local user*
+ 
+    ```undo local-user <user>```
 
 ### Aruba
 
