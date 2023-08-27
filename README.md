@@ -21,7 +21,7 @@
 | boot                 | bootrom                        | boot      |    |
 | shutdown             | shutdown                       | shutdown  |    |
 
-## Create new user
+## [User Management / Create User]
 ### Cisco
 
 ### Huawei
@@ -60,6 +60,23 @@
 ### FS
 
 
+---
+
+## [Enable voice VLAN]
+
+### Huawei
+```
+<HUAWEI> system-view
+[HUAWEI] interface gigabitethernet 0/0/1
+[HUAWEI-GigabitEthernet0/0/1] voice-vlan enable
+```
+
+### Aruba
+```
+Switch> config
+Switch# vlan 10
+Switch(vlan-10)# voice
+```
 
 ---
 
