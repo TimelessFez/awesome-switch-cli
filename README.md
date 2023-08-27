@@ -1,7 +1,7 @@
 # CLI command translations for Cisco, Huawei, and Aruba switches
 ## Ping & Traceroute
 | Cisco                | Huawei                         | Aruba               | FS |
-|----------------------|--------------------------------|---------------------|    |
+|----------------------|--------------------------------|---------------------|----|
 | ping                 | ping                           | ping                |    |
 | traceroute           | tracert                        |                     |    |
 | no <command>         | undo <command>                 | no <command>        |    |
