@@ -25,25 +25,35 @@
 ### Cisco
 
 ### Huawei
-1. **Create user with plaintext password**
+- **Create user with plaintext password**
 
-*"This command should be entered in interactive mode. Directly entering a plaintext password without being in interactive mode poses potential security risks."*
+  - *"This command should be entered in interactive mode. Directly entering a plaintext password without being in interactive mode poses potential security risks."*
 
-```local-user <username> password <password>```
+    ```local-user <username> password <password>```
 
-2. **Create user with ciphertext password**
+- **Create user with ciphertext password**
 
-```local-user <username> password ( cipher | irreversible-cipher ) <password>```
+    - ```local-user <username> password ( cipher | irreversible-cipher ) <password>```
 
-3. **Configure access type for local user**
+- **Configure access type for local user (user access permission)**
 
-*By default, all access types are disabled for a local user.*
+  - *By default, all access types are disabled for a local user.*
 
-```local-user <username> service-type ( 8021x | api | ftp | http | ppp | ssh | telnet | terminal | web | x25-pad ) *```
+    - ```local-user <username> service-type ( 8021x | api | ftp | http | ppp | ssh | telnet | terminal | web | x25-pad ) *```
 
-- Aruba
+- **Configure user privilege level**
 
-- FS
+  - *From 0 (lowest) to 15 (highest). Default: 0*
+ 
+    - ```local-user <username> privilege level <level>``` 
+
+### Aruba
+
+
+
+### FS
+
+
 
 ---
 
