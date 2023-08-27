@@ -25,17 +25,16 @@
 ### Cisco
 
 ### Huawei
-**Create user with plaintext password**
+1. **Create user with plaintext password**
 
 *"This command should be entered in interactive mode. Directly entering a plaintext password without being in interactive mode poses potential security risks."*
 
 ```local-user <username> password <password>```
 
-**Create user with ciphertext password**
-
+2. **Create user with ciphertext password**
 ```local-user <username> password ( cipher | irreversible-cipher ) <password>```
 
-**Configure access type for local user**
+3. **Configure access type for local user**
 
 *By default, all access types are disabled for a local user.*
 
