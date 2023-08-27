@@ -22,23 +22,23 @@
 | shutdown             | shutdown                       | shutdown  |    |
 
 ## Create new user
-### - Cisco
+### Cisco
 
-### - Huawei
-#### Create user with plaintext password
+### Huawei
+#### - Create user with plaintext password
 "This command should be entered in interactive mode. Directly entering a plaintext password without being in interactive mode poses potential security risks."
 ``local-user <username> password <password>``
 
-#### Create user with ciphertext password
+#### - Create user with ciphertext password
 ``local-user <username> password ( cipher | irreversible-cipher ) <password>``
 
-#### Configure access type for local user
+#### - Configure access type for local user
 By default, all access types are disabled for a local user.
 ``local-user <username> service-type ( 8021x | api | ftp | http | ppp | ssh | telnet | terminal | web | x25-pad ) *``
 
-### - Aruba
+### Aruba
 
 
-### - FS
+### FS
 
 * This table will be updated over time.
