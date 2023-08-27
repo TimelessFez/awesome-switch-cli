@@ -43,7 +43,7 @@
 
 - **Configure user privilege level**
 
-  - *From 0 (lowest) to 15 (highest). Default: 0*
+  - *Privilege level ranges from 0 (lowest) to 15 (highest). Default: 0*
  
     ```local-user <username> privilege level <level>``` 
 
