@@ -33,19 +33,19 @@
 
 - **Create user with ciphertext password**
 
-    - ```local-user <username> password ( cipher | irreversible-cipher ) <password>```
+  - ```local-user <username> password ( cipher | irreversible-cipher ) <password>```
 
 - **Configure access type for local user (user access permission)**
 
   - *By default, all access types are disabled for a local user.*
 
-    - ```local-user <username> service-type ( 8021x | api | ftp | http | ppp | ssh | telnet | terminal | web | x25-pad ) *```
+    ```local-user <username> service-type ( 8021x | api | ftp | http | ppp | ssh | telnet | terminal | web | x25-pad ) *```
 
 - **Configure user privilege level**
 
   - *From 0 (lowest) to 15 (highest). Default: 0*
  
-    - ```local-user <username> privilege level <level>``` 
+    ```local-user <username> privilege level <level>``` 
 
 ### Aruba
 
