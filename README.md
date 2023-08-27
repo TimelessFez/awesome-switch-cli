@@ -32,6 +32,7 @@
 ```local-user <username> password <password>```
 
 2. **Create user with ciphertext password**
+
 ```local-user <username> password ( cipher | irreversible-cipher ) <password>```
 
 3. **Configure access type for local user**
