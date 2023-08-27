@@ -1,4 +1,4 @@
-# switch-config
+# CLI command translations for Cisco, Huawei, and Aruba switches
 | Cisco                | Huawei                         | Aruba               |
 |----------------------|--------------------------------|---------------------|
 | ping                 | ping                           | ping                |
