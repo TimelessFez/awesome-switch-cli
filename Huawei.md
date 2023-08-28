@@ -7,7 +7,7 @@
 		
 - **System view**
 
-	- *Equivalent to enable on Cisco switches*
+	- *Equivalent to* ``enable`` *on Cisco switches*
    
   	```
 	<HUAWEI> system-view
