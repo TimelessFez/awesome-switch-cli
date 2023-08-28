@@ -1,5 +1,5 @@
 # CLI command translations for Cisco, Huawei, and Aruba switches
-## Ping & Traceroute
+## General configuration
 | Cisco                | Huawei                         | Aruba               | FS |
 |----------------------|--------------------------------|---------------------|----|
 | ping                 | ping                           | ping                |    |
@@ -21,7 +21,7 @@
 | boot                 | bootrom                        | boot      |    |
 | shutdown             | shutdown                       | shutdown  |    |
 
-## [User Management / Create User]
+## User Management / Create User
 ### Cisco
 
 ### Huawei
