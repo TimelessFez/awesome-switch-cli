@@ -1,4 +1,5 @@
 # CLI command translations for Cisco, Huawei, and Aruba switches
+
 ## General configuration
 | Cisco                | Huawei                         | Aruba               | FS |
 |----------------------|--------------------------------|---------------------|----|
@@ -22,9 +23,14 @@
 | shutdown             | shutdown                       | shutdown  |    |
 
 ## User Management / Create User
+
 ### Cisco
 
+https:/github.com/TimelessFez/switch-config/Cisco.md
+
 ### Huawei
+
+https:/github.com/TimelessFez/switch-config/Huawei.md
 
 - **User view**
 
