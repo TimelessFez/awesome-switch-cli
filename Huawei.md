@@ -17,11 +17,11 @@
 - **Interface view**
 
 	- *config interface parameters (physical attributes, link layer protocols, IP addresses)*
-
-    ```
-    [HUAWEI] interface gigabitethernet 0/0/1
-		[HUAWEI-GigabitEthernet0/0/1]
-		```
+	
+    	```
+   	[HUAWEI] interface gigabitethernet 0/0/1
+	[HUAWEI-GigabitEthernet0/0/1]
+	```
 
 ---
 
