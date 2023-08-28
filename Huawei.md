@@ -3,26 +3,26 @@
 
 	- *The user enters user view upon logging in*
  
-		```<HUAWEI>```
+	``<HUAWEI>``
 		
 - **System view**
 
-  - *Equivalent to ``enable`` on Cisco switches*
+	- *Equivalent to ``enable`` on Cisco switches*
    
-		```
-		<HUAWEI> system-view
-		[HUAWEI]
-		```
+  	```
+	<HUAWEI> system-view
+	[HUAWEI]
+	```
 		
 - **Interface view**
 
 	- *config interface parameters (physical attributes, link layer protocols, IP addresses)*
 	
-    	```
+     	```
    	[HUAWEI] interface gigabitethernet 0/0/1
-	[HUAWEI-GigabitEthernet0/0/1]
-	```
-
+	[HUAWEI-GigabitEthernet 0/0/1]
+  	```
+   
 ---
 
 ## CLI Navigation
@@ -31,11 +31,11 @@
 
 	- *Go back once from the current menu*
 
-    ```
-		[HUAWEI-GigabitEthernet0/0/1] quit
-		[HUAWEI] quit
-		<HUAWEI> quit
-		```
+   	```
+	[HUAWEI-GigabitEthernet 0/0/1] quit
+	[HUAWEI] quit
+	<HUAWEI> quit
+	```
 		
 	- **Go back to the user view directly**
  
@@ -134,11 +134,43 @@
 ---
 
 ## Configure IP Route
+
 - **Static IP route**
+
 	- *configure a unicast static IP route*
 
-		```
-		[HUAWEI] ip route-static <destination> <mask> <next-hop address>
-		```
+	```
+	[HUAWEI] ip route-static <destination> <mask> <next-hop address>
+	```
 
 ---
+
+## VLAN Config
+
+- **Configure interface**
+	
+	- *Configure a port as a trunk port, and allow to pass all VLANs*
+
+	```
+	[HUAWEI] interface gigabitEthernet 0/0/1
+	[HUAWEI-gigabitEthernet 0/0/1] port link-type trunk
+	[HUAWEI-gigabitEthernet 0/0/1] port trunk allow-pass vlan <vlan id>	
+	```
+
+	- *Configure a port as an access port in a specified VLAN*
+	
+	```
+	[HUAWEI] interface gigabitEthernet 0/0/1
+	[HUAWEI-gigabitEthernet 0/0/1] port link-type access
+	[HUAWEI-gigabitEthernet 0/0/1] port default vlan <vlan id>	
+	```
+
+- **Configure voice VLAN**
+
+	- *Voice VLAN*
+
+	```
+	<HUAWEI> system-view
+	[HUAWEI] interface gigabitethernet 0/0/1
+	[HUAWEI-GigabitEthernet0/0/1] voice-vlan enable
+	```
