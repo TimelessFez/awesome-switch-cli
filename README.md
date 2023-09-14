@@ -24,20 +24,32 @@
 | boot                 | bootrom                        | boot      |    |
 | shutdown             | shutdown                       | shutdown  |    |
 
-### Cisco
-https:/github.com/TimelessFez/switch-config/Cisco.md
+### [Cisco](https:/github.com/TimelessFez/switch-config/Cisco.md)
 
-### Aruba
-https:/github.com/TimelessFez/switch-config/Aruba.md
+### [Aruba](https:/github.com/TimelessFez/switch-config/Aruba.md)
 
-### FS
-https:/github.com/TimelessFez/switch-config/FS.md
+### [FS](https:/github.com/TimelessFez/switch-config/FS.md)
 
-### Huawei
-https:/github.com/TimelessFez/switch-config/Huawei.md
+### [Huawei](https:/github.com/TimelessFez/switch-config/Huawei.md)
 
-### Dell
-https:/github.com/TimelessFez/switch-config/Dell.md
+### [Dell](https:/github.com/TimelessFez/switch-config/Dell.md)
+
+---
+
+## References
+- https://dl.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_networking/networking-n1100-series_users-guide_en-us.pdf
+- https://www.mcwireless.co.uk/post/basic-guide-to-dell-vs-cisco-commands
+- https://dl.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_pedge_srvr_ethnt_nic/poweredge-mseries-blademultipack_white%20papers53_en-us.pdf
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 ---
 
