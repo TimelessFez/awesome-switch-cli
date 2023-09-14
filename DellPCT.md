@@ -2,8 +2,9 @@
 serial console:
 9600 baud, 8 data bits, 1 stop bit, no parity, no flow control
 
+Relevant device list:
+
 PowerConnect 3524, PowerConnect 3524P, PowerConnect 3548, PowerConnect 3548P, PowerConnect 5524, PowerConnect 5524P, PowerConnect 5548, PowerConnect 5548p, PowerConnect 6224, PowerConnect 6224F, PowerConnect 6224P, PowerConnect 6248 , PowerConnect 6248P, PowerConnect 7024, PowerConnect 7024F, PowerConnect 7024P, PowerConnect 7048, PowerConnect 7048P, PowerConnect 7048R, PowerConnect 8024, PowerConnect 8024F, PowerConnect 8100 Series, PowerConnect M6220, PowerConnect M6348, PowerConnect M8024, PowerConnect M8024-K
-re: https://www.dell.com/support/kbdoc/en-us/000122285/how-to-configure-an-ip-address-on-dell-networking-powerconnect-switches
 
 ---
 
@@ -72,10 +73,5 @@ switchport mode trunk
 switchport trunk allowed <vlanid>
 ```
 
-
-
-
-
-
-
-
+## References
+-  https://www.dell.com/support/kbdoc/en-us/000122285/how-to-configure-an-ip-address-on-dell-networking-powerconnect-switches
