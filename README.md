@@ -40,7 +40,7 @@
 - https://dl.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_networking/networking-n1100-series_users-guide_en-us.pdf
 - https://www.mcwireless.co.uk/post/basic-guide-to-dell-vs-cisco-commands
 - https://dl.dell.com/manuals/all-products/esuprt_ser_stor_net/esuprt_pedge_srvr_ethnt_nic/poweredge-mseries-blademultipack_white%20papers53_en-us.pdf
-- 
+- https://www.dell.com/support/kbdoc/en-us/000120225/basic-command-line-interface-on-dell-networking-powerconnect-2800-model-switches
 - 
 - 
 - 
