@@ -1,4 +1,6 @@
-# CLI command translations for Cisco, Huawei, and Aruba switches
+## CLI command translation
+\**This page will be updated over time.*
+
 
 ## General configuration
 | Cisco                | Huawei                         | Aruba               | FS |
@@ -22,27 +24,21 @@
 | boot                 | bootrom                        | boot      |    |
 | shutdown             | shutdown                       | shutdown  |    |
 
-## User Management / Create User
-
 ### Cisco
-
 https:/github.com/TimelessFez/switch-config/Cisco.md
 
 ### Aruba
+https:/github.com/TimelessFez/switch-config/Aruba.md
 
 ### FS
+https:/github.com/TimelessFez/switch-config/FS.md
+
+### Huawei
+https:/github.com/TimelessFez/switch-config/Huawei.md
+
+### Dell
+https:/github.com/TimelessFez/switch-config/Dell.md
 
 ---
 
-### Aruba
-```
-Switch> config
-Switch# vlan 10
-Switch(vlan-10)# voice
-```
-
----
-
----
-
-* This page will be updated over time.
+\**This page will be updated over time.*
