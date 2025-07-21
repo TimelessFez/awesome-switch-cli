@@ -5,19 +5,19 @@
 ## General configuration
 | Cisco                | Huawei                         | Aruba               | FS |
 |----------------------|--------------------------------|---------------------|----|
-| ping                 | ping                           | ping                |    |
-| traceroute           | tracert                        |                     |    |
+| ping <ip addr>       | ping <ip addr>                 | ping <ip addr>      | ping <ip addr>   |
+| traceroute           | tracert                        | traceroute          | traceroute   |
 | no <command>         | undo <command>                 | no <command>        |    |
-| show                 | display                        |                     |    |
-| show interface       | display interface              |                     |    |
-| write terminal (show running-config)  | display current-configuration  | show running-config |    |
-| show startup-config  | display startup                | show startup-config |    |
+| show                 | display                        |                     | show   |
+| show interface       | display interface              |                     | show interface   |
+| write terminal (show running-config)  | display current-configuration  | show running-config | show running-config   |
+| show startup-config  | display startup                | show startup-config | show startup-config   |
 | enable               | super (default: 3)             | enable              |    |
-| conf t               | system-view                    | config              |    |
+| configure terminal   | system-view                    | configure terminal  |    |
 | exit                 | quit                           | exit                |    |
 | end                  | return                         |                     |    |
 | disable              | super 0 (privilege level: 0-3) | disable             |    |
-| clock                | clock                          | set clock           |    |
+| clock                | clock                          | set clock           | clock set datetime HH:MM:SS MONTH DAY YEAR   |
 | copy running-config  | save safely                    | copy running-config |    |
 | write mem            | save                           | write m             |    |
 | reload               | reboot                         |   |    |
