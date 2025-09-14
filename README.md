@@ -17,7 +17,7 @@ Multi-vendor network switch CLI made simple — saving your sanity, one `no shut
 | Task / Function              | Cisco          | Huawei           | Aruba          | FS | HP (ProCurve) | Dell (PowerConnect) |
 |-------------------------------|---------------|-----------------|----------------|----|---------------|-------------------|
 | Enter privileged mode        | `enable`       | `super` (default: 3) | `enable`       | `enable` | `enable` | `enable` |
-| Disable privileged mode      | `disable`      | `super 0` (level 0–3) | `disable`     | `disable` | `disable` | `disable` |
+| Disable privileged mode      | `disable`      | `super 0` (level 0-3) | `disable`     | `disable` | `disable` | `disable` |
 | Enter configuration mode     | `configure terminal` | `system-view` | `configure terminal` | `configure terminal` | `configure` | `configure` |
 | Exit current mode            | `exit`         | `quit`          | `exit` (back once) / `end` (back to exec mode)          | `exit` | `exit` | `exit` |
 | Return to previous mode      | `end`          | `return`        | `exit`          | `exit` | `exit` | `end` |
