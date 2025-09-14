@@ -95,7 +95,7 @@ Multi-vendor network switch CLI made simple — saving your sanity, one `no shut
 | Task / Function               | Cisco                  | Huawei             | Aruba                | FS | HP (ProCurve) | Dell (PowerConnect) |
 |-------------------------------|-----------------------|------------------|--------------------|----|---------------|-------------------|
 | Show ACLs                      | `show access-lists`    | `display acl all` | `show access-list`  | `show access-list` | `show access-lists` | `show access-lists` |
-| Apply ACL to interface         | `ip access-group <name> in|out` | `traffic-filter <name> inbound|outbound` | `ip access-group <name> in|out` | `ip access-group <name> in|out` | `ip access-group <name> in|out` | `ip access-group <name> in|out` |
+| Apply ACL to interface         | `ip access-group <name> in\|out` | `traffic-filter <name> inbound\|outbound` | `ip access-group <name> in\|out` | `ip access-group <name> in\|out` | `ip access-group <name> in\|out` | `ip access-group <name> in\|out` |
 
 ---
 
