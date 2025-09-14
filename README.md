@@ -60,7 +60,7 @@
 
 ---
 
-## 6. Misc / Advanced Commands
+## 6. Misc.
 | Task / Function               | Cisco                  | Huawei             | Aruba                | FS |
 |-------------------------------|-----------------------|------------------|--------------------|----|
 | Negate command                | `no <command>`        | `undo <command>`  | `no <command>`     | `no <command>` |
