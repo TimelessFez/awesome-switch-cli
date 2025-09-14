@@ -1,10 +1,5 @@
-## CLI command translation
-\**This page will be updated over time.*
-
-
-## General configuration
 # Network Switch Command Cheat Sheet
-> Cisco | Huawei | Aruba | FS
+Multi-vendor network switch CLI made simple — saving your sanity, one `no shutdown` at a time! 🤓
 
 ---
 
