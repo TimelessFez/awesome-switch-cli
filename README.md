@@ -55,7 +55,7 @@
 |-------------------------------|-----------------------|------------------|--------------------|----|
 | Save running config           | `copy running-config`  | `save safely`     | `copy running-config` | `copy running-config` |
 | Save config to memory         | `write memory` (`wr mem`) | `save`           | `write memory` (`write m`) | `write memory` |
-| Reload / reboot device        | `reload`               | `reboot`          | `reload`           | `reload` |
+| Reboot                        | `reload`               | `reboot`          | `reload`           | `reload` |
 | Boot commands                 | `boot`                 | `bootrom`         | `boot`             | `boot` |
 
 ---
@@ -63,7 +63,7 @@
 ## 6. Misc.
 | Task / Function               | Cisco                  | Huawei             | Aruba                | FS |
 |-------------------------------|-----------------------|------------------|--------------------|----|
-| Negate command                | `no <command>`        | `undo <command>`  | `no <command>`     | `no <command>` |
+| Negate / undo                 | `no <command>`        | `undo <command>`  | `no <command>`     | `no <command>` |
 | Show spanning tree            | `show spanning-tree`  | `display stp`     | `show spanning-tree` | `show spanning-tree` |
 
 ## References
