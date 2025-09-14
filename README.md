@@ -45,7 +45,7 @@ Multi-vendor network switch CLI made simple — saving your sanity, one `no shut
 
 ---
 
-## 5. Configuration Save & Reload
+## 5. Configuration Save & Reboot
 | Task / Function               | Cisco                  | Huawei             | Aruba                | FS | HP (ProCurve) | Dell (PowerConnect) |
 |-------------------------------|-----------------------|------------------|--------------------|----|---------------|-------------------|
 | Save running config           | `copy running-config`  | `save safely`     | `copy running-config` | `copy running-config` | `write memory` | `copy running-config startup-config` |
