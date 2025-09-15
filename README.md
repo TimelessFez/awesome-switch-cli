@@ -1,5 +1,5 @@
 # Awesome Switch CLI
-Multi-vendor network switch CLI made simple — saving your sanity, one `no shutdown` at a time! 🤓
+Multi-vendor network switch CLI made simple — saving your sanity, one command at a time! 🤓
 
 ---
 
@@ -133,3 +133,11 @@ Multi-vendor network switch CLI made simple — saving your sanity, one `no shut
 ---
 
 \**This page will be updated over time.*
+Future additions:
+- netgear
+- arista
+- mikrotik
+- d-link
+- tp-link
+- ubiquiti
+- juniper
